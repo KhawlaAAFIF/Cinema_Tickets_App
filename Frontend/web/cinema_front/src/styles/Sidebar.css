@@ -1,0 +1,32 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.sidebar ul {
+  padding: 0px !important;
+}
+
+.sidebar ul li:hover {
+  background-color: rgb(177, 184, 216);
+}
+
+
+.sidebar ul li a:hover .fs-5 {
+  color: white !important;
+}
+.bg-custom-color {
+  background-color: #2e80d8;
+}
+
+.logout-button {
+  background-color: #2e80d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #2e80d8;
+}

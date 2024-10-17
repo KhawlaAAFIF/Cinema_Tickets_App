@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #2e80d8; 
+  }
+  
+  .admin-login {
+    width: 500px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    color: #000000;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  
+  }
+  
+  .admin-login h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e80d8; 
+    margin-bottom: 20px;
+  }
+  
+  .admin-login .logo {
+    font-size: 24px;
+    color: #2e80d8; 
+  }
+  
+  .admin-login form {
+    margin-top: 20px;
+  }
+  
+  .admin-login form .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .admin-login form .input-box input {
+    width: 100%;
+    height: 40px;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    border: 2px solid #2e80d8; 
+    border-radius: 20px;
+    color: #000000; 
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  
+  .admin-login form button {
+    width: 100%;
+    height: 40px;
+    background: #2e80d8; 
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff; 
+    font-weight: bold;
+  }
+  
+  .admin-login form button:hover {
+    background: #1e5bb5;
+  }
+  
+  .admin-login .error-message {
+    color: #ff0000; 
+    margin-top: 10px;
+  }
+  

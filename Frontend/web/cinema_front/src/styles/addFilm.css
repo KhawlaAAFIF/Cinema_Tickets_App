@@ -1,0 +1,86 @@
+.add-film {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .add-film h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-film .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .add-film label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-film input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-film button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .add-film button:hover {
+    background-color: #0056b3;
+  }
+  .data-grid{
+    
+    .add-mov{
+      width: 15%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 5%;
+      margin-right: 20%;
+    }
+  }
+  .select-film{
+    display: inline-block;
+    width: 100%; 
+    padding: 8px 14px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    outline: none; 
+    &:hover {
+      border-color: #ccc;
+    }
+  
+   
+    &[disabled] {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+  
